@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fira code', sans-serif;
+    background-color: #020126;
+}
+
+header {
+    padding: 20px;
+    background-color: #020126;
+}
+
+
+a {
+    margin: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover{
+    color: #049DBF;
+    border: 2px solid #1C0373;
+    border-radius: 20px;
+}
+
+section {
+    background-position: center;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    backdrop-filter: blur(2px);
+    background-attachment: fixed;
+    
+}
+
+.aporesentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.user{
+    height: 200px;
+}
+
+h1{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    height: 50px;
+    padding: 10px;
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 80px;
+}
+
+.conteiner h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.conteiner p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+.conteiner img{
+    width:100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+.formacao {
+    border: 2px solid #021F59;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 50px;
+    box-shadow:12px 10px 50px  #049DBF ;
+}
+
+.projetos{
+    border: 2px solid #021F59;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 50px;
+    box-shadow:12px 10px 50px #049DBF ;
+}
+
+.experiencia{
+    border: 2px solid #021F59;
+    padding: 40px;
+    border-radius: 50px;
+    margin: 50px;
+    box-shadow:12px 10px 50px  #049DBF ;
+}
